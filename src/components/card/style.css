@@ -1,4 +1,13 @@
 .card {
-  width: 8rem;
-  margin: 0.5rem;
+  width: 100px;
+  transition: 0.4s;
+}
+
+.card > img {
+  border: 2px solid transparent;
+}
+.card > img:hover {
+  border-color: #f03e3e;
+  border-radius: 8px;
+  transform: scale(1.1);
 }
